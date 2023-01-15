@@ -1,0 +1,72 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.sign-in{
+    background-color: #1F305E;
+    color: white;
+    flex-basis: 0;
+    flex-grow: 1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    padding: 20px;
+}
+
+.register{
+    background-color: white;
+    color: #1F305E;
+    flex-basis: 0;
+    flex-grow: 1;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.h1-signin-register{
+    padding: 30px;
+}
+
+.button_signin{
+    background-color: white;
+    border: 3px solid #808080; 
+    text-align: center;
+    color:#1F305E;
+    text-decoration: none;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button_register{
+    background-color: #1F305E;
+    border: 3px solid #808080; 
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button_signin:hover{
+    background-color: #1F305E; 
+    color: white;
+}
+
+.button_register:hover{
+    background-color: white;
+    color: #1F305E; 
+}

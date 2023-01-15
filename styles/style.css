@@ -1,0 +1,166 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center; 
+    font-style: italic;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.white-space{
+    background-color: white; 
+    height: 30px;
+}
+
+header {
+    background-color: #1F305E;
+    padding: 10px;
+}
+
+.main-banner{
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+#first-line{
+    color:white;
+    text-align: center;
+    color: black;
+}
+
+.first-div{
+    background-color: white;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.second-container1-2, .second-container1-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#vincent{
+    height: 300px;
+    width: 230px;
+}
+
+.second-container1{
+    width: 33%;
+    background-color: #808080;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-container2{
+    width: 66%;
+    background-color: #C8C8C8;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-container2-1{
+    display: flex;
+}
+
+#image-contact{
+    height: 200px;
+    width: 400px;
+}
+
+.deals-of-the-week{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 1em;
+}
+
+.item{
+    flex:33%;
+    display: block;
+    text-align: center;
+    border: 5px solid #1F305E;
+    padding: 10px;
+}
+
+.navigation-bar{
+    display: flex;
+    background-color: #1F305E;
+}
+
+.button{
+    flex-grow: 1;
+    text-align: center;
+    padding: 14px 20px;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.mybutton{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-style: italic;
+    background-color: #1F305E;
+    text-decoration: none;
+    height: 10px;
+}
+
+.button:hover{
+    background-color: #ddd;
+    color: #1F305E;
+}
+
+#form-suggestions{
+    padding: 30px;
+    height:fit-content;
+    background-color: #1F305E;
+    margin: 20px;
+}
+
+#form-suggestions-interior{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.some-button{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+    color: #1F305E;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.some-button:hover{
+    background-color: #1F305E;
+    color:white;
+    border: 2px solid white;
+}

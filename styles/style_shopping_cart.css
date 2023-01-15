@@ -1,0 +1,53 @@
+/* SHOPPING CART CSS */
+
+.items-in-cart{
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemx{
+    border: 10px solid #808080;    
+    background-color: #1F305E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemx_img{
+    width: 66%;
+    height: 300px;
+}
+
+.itemx_description{
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.something{
+    color: #1F305E;
+    font-style: italic;
+    text-align: center;
+}
+
+.button_checkout{
+    background-color: #1F305E;
+    border: 3px solid #808080; 
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button_checkout:hover{
+    background-color: white;
+    color: #1F305E;
+}

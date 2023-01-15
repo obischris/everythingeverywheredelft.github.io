@@ -1,0 +1,74 @@
+.main-div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item-container{
+    width: 66%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.5em;
+    align-items: center;
+    margin: 10px;
+}
+
+.item-marketplace{
+    background-color: white;
+    border: 2px solid #1F305E;
+    color: #1F305E;
+    height: 365px;
+    width: 240px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    flex-wrap: wrap;
+}
+
+.search-engine{
+    width: 33%;
+    background-color: #1F305E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.sell{
+    height:fit-content;
+    margin-top: 20px;
+    border: 10px solid #1F305E;
+    color: #1F305E;
+    font-style: italic;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.item-picture{
+    height: 180px;
+    width: 230px;
+}
+
+.different-button{
+    background-color: #1F305E;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.different-button:hover{
+    background-color: white;
+    color: #1F305E;
+    border: 1px solid #1F305E;
+}
